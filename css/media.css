@@ -1,0 +1,283 @@
+@media screen and (max-width: 575.98px) 
+{
+     body {
+        max-width: 100%;
+        overflow-y: hidden;
+     }
+      
+      .about-header h2,.about-services h2,.about-sumary h2 ,.about-prtofilo h2 ,.about-testominal h2,.about-contact h2{
+
+        font-size: 50px;
+      }
+      .about-header p,.about-services p,.about-sumary p ,.about-prtofilo p ,.about-testominal p,.about-contact p{
+
+        font-size: 20px;
+        top:15px;
+      }
+    
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .header-caption p {
+   
+    font-size: 16px;
+    font-weight: 200;
+    
+  }
+  .header-caption h2 {
+    
+    font-size: 24px;
+    font-weight: 200;
+   
+  }
+    .aboutme {
+      flex-wrap: wrap;
+      }
+  .about-content {
+    width: 100%;
+}
+.about-info {
+    width: 100%;
+  }
+
+  .counter .container {
+    flex-wrap: wrap;
+  }
+  .counter-item{
+
+    width:50%;
+  }
+  .services-item {
+    width: 100%;
+  }
+.my-sumary{
+    display: flex;
+    flex-direction: column;
+}
+  .education {
+    width: 100%;
+    display: block;
+    
+   
+    
+  }
+  .experience {
+    width: 100%;
+    display: block;
+    position: relative;
+   left: 0px;
+  }
+  .skils{
+   
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  
+  }
+  .progress-right,.progress-left{
+    width:100%;
+  }
+  .btn-skils{
+      text-align: center;
+      position: relative;
+      left: 25%;
+  }
+  .work-images {
+   flex-direction: column;
+   
+   
+  }
+  
+.work-images img{
+    width:100%;
+}
+.img-right,.img-center,.img-left{
+width:100%;
+}
+
+
+.work-links a {
+ display: block;
+ width: 100%;
+  }
+
+  .client-message-one 
+    ,.client-message-two  {
+    
+    width: 100%;
+    
+   
+    
+    
+  }
+  .client-message-one img{
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    position: absolute;
+    left:5px;
+    top:33px;
+  }
+  .client-message-two img{
+   
+    left:5px;
+    top:480px;
+  }
+
+  .contact-info{
+  
+   flex-direction: column;
+    
+  }
+  .adreses,.notes{
+ 
+    width:100%;
+    margin: 10px 0px;
+    text-align: center;
+    
+  }
+  .fa-phone-flip ,.fa-fax , .fa-envelope{
+   
+    top:30px;
+    left:-90px;
+  }
+  .items{
+      flex-direction: column;
+  }
+  .items-right,.items-left{
+      width: 100%;
+  }
+
+.notes h3{
+    left:0px;
+}
+
+
+
+
+}
+
+
+
+/* taplets */
+
+@media screen and  (min-width: 576px) and(max-width: 991.98px)
+{
+    body {
+       max-width: 100%;
+       overflow-y: hidden;
+     }
+
+ 
+   .aboutme {
+     flex-wrap: wrap;
+     }
+ .about-content {
+   width: 100%;
+}
+.about-info {
+   width: 100%;
+ }
+
+ .counter .container {
+   flex-wrap: wrap;
+ }
+ .counter-item{
+
+   width:50%;
+ }
+ .services-item {
+   width: 50%;
+ }
+
+ .education {
+   width: 50%;
+   
+   
+  
+   
+ }
+ .experience {
+   width: 50%;
+   
+   
+ }
+ 
+ .progress-right,.progress-left{
+   width:40%;
+ }
+ .btn-skils{
+     text-align: center;
+     position: relative;
+     left: 35%;
+ }
+ 
+.img-right,.img-center,.img-left{
+width:50%;
+}
+
+
+
+
+ .client-message-one 
+   ,.client-message-two  {
+   
+   width: 100%;
+   
+  margin: 20px 0px;
+   
+   
+ }
+ .client-message-one img{
+   width: 50%;
+   border-radius: 50%;
+   
+   left:5px;
+   top:33px;
+ }
+ .client-message-two img{
+  width: 50%;
+  border-radius: 50%;
+  
+  left:5px;
+  top:33px;
+ }
+
+ .contact-info{
+ 
+  flex-direction: column;
+   
+ }
+ .adreses,.notes{
+
+   width:100%;
+   margin: 10px 0px;
+   text-align: center;
+   
+ }
+ .fa-phone-flip ,.fa-fax , .fa-envelope{
+  
+   top:30px;
+   left:-90px;
+ }
+ .items{
+     flex-direction: column;
+     text-align: center;
+ }
+ .items-right,.items-left{
+     width: 100%;
+ }
+
+.notes h3{
+   left:0px;
+}
+
+
+
+
+}
+
